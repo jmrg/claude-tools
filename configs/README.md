@@ -15,7 +15,6 @@ Cada archivo trae sus propias reglas, sus condiciones de parada y comprobaciones
 | N.º | Archivo | Qué configura | Requisitos |
 |---|---|---|---|
 | 1 | [`1.guia-claude-obsidian.md`](1.guia-claude-obsidian.md) | Claude Code con un **vault de Obsidian como memoria de contexto extendida**: vault y plantillas, scripts de índices, hook `SessionStart`, permisos, bloque de `CLAUDE.md` y memoria automática | Windows, Windows PowerShell 5.1 y Node.js 18 o superior |
-
 | 2 | [`2.reglas-alcance-y-eficiencia-de-tokens.md`](2.reglas-alcance-y-eficiencia-de-tokens.md) | Bloque de reglas en `~/.claude/CLAUDE.md`: hacer solo lo pedido (alcance) y gastar los tokens mínimos (sin subagentes por defecto, lectura acotada, sesión nueva en trabajos largos) | Cualquier sistema; solo edita `CLAUDE.md` |
 | 3 | [`3.perfiles-cops-cdev.md`](3.perfiles-cops-cdev.md) | Dos comandos, `cops` (Sonnet + advisor Opus + subagentes Haiku) y `cdev` (Opus, sin advisor), con perfiles `--settings` sin tocar `settings.json` | Windows y Claude Code (Node.js 18 o superior solo para validar JSON) |
 | 4 | [`4.reglas-de-agentes.md`](4.reglas-de-agentes.md) | Reglas para definir y usar subagentes (modelos por rol, herramientas mínimas, guardias con hooks, marcadores, orquestación) e instalación del equipo `/team` de `equipo-team/` | Windows, PowerShell 5.1 y Node.js 18 o superior; plugins `ponytail` y `fullstack-dev-skills` |
