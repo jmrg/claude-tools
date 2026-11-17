@@ -1,0 +1,2 @@
+# Siempre LF: los agentes y skills llevan frontmatter YAML y se copian a ~/.claude
+* text=auto eol=lf
