@@ -9,6 +9,7 @@ configuraciones que se instalan en `~/.claude`. Cada herramienta vive en su prop
 |---|---|---|
 | [`analysis/`](analysis/README.md) | Skill `/analysis`: revisión independiente de solo lectura con un modelo fuerte (Opus por defecto), con topes de costo, verificación posterior y correcciones | Escrito a partir de una sesión real; sin desplegar ni probar |
 | [`equipo-team/`](equipo-team/README.md) | Equipo de agentes de desarrollo `/team`: arquitecto, desarrollador, QA y explorador, con orquestador, guardias de seguridad y preflight de plugins | Construido, optimizado y probado en un repo de juguete (2026-11-17); falta validar con tareas complejas |
+| [`configs/`](configs/README.md) | Configuraciones numeradas de Claude Code que el propio Claude ejecuta paso a paso; la `1.` es la primera a realizar (Claude Code + vault de Obsidian como memoria de contexto). | Comprobada en local con scripts y carpetas temporales; falta probarla en un equipo limpio |
 
 ## Convenciones
 
