@@ -1,0 +1,6 @@
+# Carpeta de trabajo del equipo /team (planes y lecciones por proyecto)
+.team/
+node_modules/
+*.log
+# Salidas locales de pruebas
+bench-runs/
